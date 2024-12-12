@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'WHEERG';
+    src: url('/assets/WHEERG.TTF');
+}
+
+
+:root {
+    --primary-color: #1AC073;
+    --secondary-color: #F3BA00;
+}
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

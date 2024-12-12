@@ -1,0 +1,72 @@
+/* Header */
+.logo {
+    color: white;
+    font-family: 'WHEERG';
+    font-size: 2rem;
+    margin: 0;
+    margin-top: .3rem;
+    cursor: pointer;
+}
+.navigator {
+    max-width: 20em;
+    gap: .8rem;
+}
+.navigator a {
+    color: white;
+    text-decoration: none;
+    margin-inline: .2rem;
+    transition: all .3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.navigator a:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.widget i {
+    color: white;
+    font-size: 1.5rem;
+    padding-inline: .3rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.widget i:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+.header-content {
+    flex: 1;
+}
+
+.authen-home {
+    width: max-content;
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        width: max-content;
+        max-width: 50%;
+    }
+    .widget {
+        justify-content: flex-end !important;
+    }
+    .header-bar:has(.bi-list:focus-within) .navigator {
+        display: flex !important;
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-end !important;
+        width: max-content;
+        box-sizing: content-box;
+        right: 0;
+        top: 70%;
+        padding: 1rem;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5));
+    }
+}
