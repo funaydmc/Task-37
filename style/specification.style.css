@@ -1,4 +1,9 @@
 /* Header */
+
+#header {
+    min-height: 100vh;
+}
+
 .logo {
     color: white;
     font-family: 'WHEERG';
@@ -43,10 +48,7 @@ input::placeholder {
 
 .header-content {
     flex: 1;
-}
-
-.authen-home {
-    width: max-content;
+    height: max-content;
 }
 
 @media screen and (max-width: 576px) {
