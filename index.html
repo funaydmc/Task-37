@@ -12,7 +12,7 @@
     <title>Food Order V1.0</title>
 </head>
 <body>
-    <section class="container-fluid bg-primary vh-100 d-flex flex-column" id="header">
+    <section class="container-fluid bg-primary d-flex flex-column" id="header">
         <div class="header-bar row py-3 d-flex justify-content-between position-relative">
             <h1 class="logo col-7 col-sm-3 flex-center">WHAT2EAT</h1>
             <div class="navigator col-6 d-none d-sm-flex justify-content-between align-items-center">
@@ -28,17 +28,19 @@
                 <i class="bi bi-list d-block d-sm-none" tabindex="3"></i>
             </div>  
         </div>
-        <div class="header-content row d-flex justify-content-center align-items-center">
-            <div class="authen-home col-12 col-md-6 d-flex flex-column justify-content-center">
-                <h1 class="text-white" style="font-size: 4rem; max-width: 600px;">Authentic Home food in UK</h1>
-                <p class="text-white" style="font-size: 1.3rem; max-width: 700px;">What2Eat is a courier service in which authentic home cook food is delivered to a customer</p>
-                <div class="input-group mb-3" style="max-width: 400px;">
-                    <input type="text" class="form-control" placeholder="Search food you love" aria-label="Search food">
-                    <button class="btn btn-warning text-white" type="button">Search</button>
+        <div class="header-content row">
+            <div class="authen-home col-12 col-lg-6 flex-center justify-content-center">
+                <div class="wrapper">
+                    <h1 class="text-white" style="font-size: 4rem; max-width: 600px;">Authentic Home food in UK</h1>
+                    <p class="text-white" style="font-size: 1.3rem; max-width: 700px;">What2Eat is a courier service in which authentic home cook food is delivered to a customer</p>
+                    <div class="input-group mb-3" style="max-width: 400px;">
+                        <input type="text" class="form-control" placeholder="Search food you love" aria-label="Search food">
+                        <button class="btn btn-warning text-white" type="button">Search</button>
+                    </div>
                 </div>
             </div>
-            <div class="authen-image col-12 col-md-6 d-flex justify-content-center align-items-center">
-                <img src="/assets/cooking.svg" alt="cooking" class="img-fluid">
+            <div class="authen-image col-12 col-lg-6 text-center flex-center">
+                <img src="/assets/cooking.svg" alt="cooking" class="w-100" style="max-width: 650px;">
             </div>
         </div>
     </section>
